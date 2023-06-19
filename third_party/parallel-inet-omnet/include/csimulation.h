@@ -108,7 +108,7 @@ class SIM_API cSimulation : public cNamedObject, noncopyable
 
     struct cmp_str //we need struct, since std::map compares only the pointers not the actual string values.
     {
-        bool operator()(char const *a, char const *b)
+        bool operator()(char const *a, char const *b) const
         {
             return strcmp(a, b) < 0;
         }

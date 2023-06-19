@@ -109,7 +109,7 @@ cSimulation::~cSimulation()
 {
     if (this==simPtr)
         // NOTE: subclass destructors will not be called, but the simulation will stop anyway
-        throw cRuntimeError(this, "cannot delete the active simulation manager object");
+        std::cerr << "Error: Cannot delete the active simulation manager object" << std::endl;
 
     deleteNetwork();
 
