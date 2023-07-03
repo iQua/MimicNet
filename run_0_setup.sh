@@ -93,9 +93,9 @@ echo "Installing anaconda..."
 cd src/
 rm -f Anaconda3-*
 rm -rf ${BASE_DIR}/opt/anaconda3
-wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
-chmod ugo+x Anaconda3-2023.03-1-Linux-x86_64.sh
-./Anaconda3-2023.03-1-Linux-x86_64.sh -b -p ${BASE_DIR}/opt/anaconda3
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+chmod ugo+x Anaconda3-2020.11-Linux-x86_64.sh
+./Anaconda3-2020.11-Linux-x86_64.sh -b -p ${BASE_DIR}/opt/anaconda3
 conda update -y -n base -c defaults conda
 
 
@@ -105,7 +105,7 @@ conda install -y numpy # putting everything on one line causes a downgrade of py
 conda install -y pyyaml mkl mkl-include setuptools cmake cffi typing h5py
 conda install -y -c mingfeima mkldnn
 conda install -y -c pytorch magma-cuda92
-conda install -y pyyaml==5.4.1 # switch yaml to 5.4.1
+# conda install -y pyyaml==5.4.1 # switch yaml to 5.4.1
 
 
 git clone https://github.com/google/glog.git || true
