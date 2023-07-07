@@ -71,7 +71,7 @@ INTER_MODEL=$1
 shift
 
 SEED=0
-SIMU_LEN=20
+SIMU_LEN=3.5
 ROUTING="ecmp"
 QUEUE="DropTailQueue"
 TCPVAR="TCPNewReno"
@@ -237,7 +237,8 @@ if flock 200; then
         opp_makemake -f ${PYTHON_INCLUDE} ${PROJECT_INCLUDES} -DINET_IMPORT \
             ${INET_INCLUDES} -L${INET_HOME}/src/out/gcc-${MODE} \
             -linet -L../homatransport/out/gcc-${MODE} -lhomatransport \
-            -L${APPROX_LIB_PATH} -l${APPROX_LIB}
+            -L${APPROX_LIB_PATH} -l${APPROX_LIB} \
+            -L/lib/x86_64-linux-gnu/ -lpython3.8
         make LDFLAGS+='-Wl,--allow-shlib-undefined' MODE=${MODE}
     fi
 fi
