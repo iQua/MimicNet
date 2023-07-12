@@ -1,0 +1,284 @@
+Simulation begin time: 
+2023-07-11 18:17:34.861843
+[34mConfiguration: Base[0m
+mean_interarrival_time = 0.024415171428571428
+estimated num of flows = 143.3534886387972
+out/sw2_sv4_l0.70_L100e6_s0_qDropTailQueue_vTCPNewReno_S3.5.traffic
+number of flows = 137
+ecmp
+Creating Makefile in /mnt/mimic_elwin/MimicNet/simulate/simulate_tcp...
+Makefile created, running "make depend" to add dependencies...
+Creating dependencies...
+Creating executable: out/gcc-release//simulate_tcp
+Simulation runtime begin time: 
+2023-07-11 18:17:35.868180
+[34mRunning simulate_tcp[0m
+OMNeT++ Discrete Event Simulation  (C) 1992-2013 Andras Varga, OpenSim Ltd.
+Version: 4.5, build: 140714-c6b1772, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from /mnt/mimic_elwin/parallel-inet/src/: 278
+Loading NED files from ../src/: 10
+Loading NED files from ../common/clusters/: 7
+Loading NED files from out/: 1
+Loading NED files from .: 2
+
+Preparing for running configuration Base, run #0...
+Scenario: $repetition=0
+Assigned runID=Base-0-20230711-18:17:36-240566
+Setting up network `FatTree'...
+Initializing...
+
+Running simulation...
+** Event #1   T=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 676   present: 676   in FES: 456
+** Event #833024   T=0.201425809889   Elapsed: 2.000s (0m 02s)  5% completed
+     Speed:     ev/sec=416512   simsec/sec=0.100713   ev/simsec=4.13564e+06
+     Messages:  created: 380849   present: 3865   in FES: 313
+** Event #1670144   T=0.362829807785   Elapsed: 4.000s (0m 04s)  10% completed
+     Speed:     ev/sec=418560   simsec/sec=0.080702   ev/simsec=5.18649e+06
+     Messages:  created: 758532   present: 4204   in FES: 574
+** Event #2523904   T=0.498753805413   Elapsed: 6.001s (0m 06s)  14% completed
+     Speed:     ev/sec=426880   simsec/sec=0.067962   ev/simsec=6.28116e+06
+     Messages:  created: 1143680   present: 4471   in FES: 519
+** Event #3364608   T=0.63197124239   Elapsed: 8.001s (0m 08s)  18% completed
+     Speed:     ev/sec=420352   simsec/sec=0.0666087   ev/simsec=6.31077e+06
+     Messages:  created: 1523734   present: 4627   in FES: 520
+** Event #4151552   T=0.748454519642   Elapsed: 10.002s (0m 10s)  21% completed
+     Speed:     ev/sec=393472   simsec/sec=0.0582416   ev/simsec=6.75585e+06
+     Messages:  created: 1879500   present: 4529   in FES: 480
+** Event #4935168   T=0.886302597693   Elapsed: 12.002s (0m 12s)  25% completed
+     Speed:     ev/sec=391808   simsec/sec=0.068924   ev/simsec=5.68463e+06
+     Messages:  created: 2234563   present: 4817   in FES: 581
+** Event #5694720   T=0.982079876514   Elapsed: 14.002s (0m 14s)  28% completed
+     Speed:     ev/sec=379776   simsec/sec=0.0478886   ev/simsec=7.9304e+06
+     Messages:  created: 2577041   present: 4674   in FES: 576
+** Event #6479104   T=1.109154193887   Elapsed: 16.002s (0m 16s)  31% completed
+     Speed:     ev/sec=392192   simsec/sec=0.0635372   ev/simsec=6.17264e+06
+     Messages:  created: 2931009   present: 4009   in FES: 380
+** Event #7264768   T=1.217749072237   Elapsed: 18.003s (0m 18s)  34% completed
+     Speed:     ev/sec=392832   simsec/sec=0.0542974   ev/simsec=7.23482e+06
+     Messages:  created: 3285862   present: 4320   in FES: 448
+** Event #8013824   T=1.321196750018   Elapsed: 20.003s (0m 20s)  37% completed
+     Speed:     ev/sec=374528   simsec/sec=0.0517238   ev/simsec=7.24092e+06
+     Messages:  created: 3622764   present: 4493   in FES: 541
+** Event #8765440   T=1.410488268459   Elapsed: 22.003s (0m 22s)  40% completed
+     Speed:     ev/sec=375808   simsec/sec=0.0446458   ev/simsec=8.41755e+06
+     Messages:  created: 3960023   present: 5178   in FES: 647
+** Event #9535488   T=1.49326906717   Elapsed: 24.003s (0m 24s)  42% completed
+     Speed:     ev/sec=385024   simsec/sec=0.0413904   ev/simsec=9.30225e+06
+     Messages:  created: 4304643   present: 4686   in FES: 556
+** Event #10286336   T=1.578650905436   Elapsed: 26.003s (0m 26s)  45% completed
+     Speed:     ev/sec=375424   simsec/sec=0.0426909   ev/simsec=8.794e+06
+     Messages:  created: 4642037   present: 4575   in FES: 539
+** Event #11033088   T=1.668260504117   Elapsed: 28.004s (0m 28s)  47% completed
+     Speed:     ev/sec=373376   simsec/sec=0.0448048   ev/simsec=8.33339e+06
+     Messages:  created: 4978160   present: 4702   in FES: 564
+** Event #11794432   T=1.756194182065   Elapsed: 30.004s (0m 30s)  50% completed
+     Speed:     ev/sec=380672   simsec/sec=0.0439668   ev/simsec=8.65816e+06
+     Messages:  created: 5321905   present: 5807   in FES: 753
+** Event #12542720   T=1.828674740613   Elapsed: 32.005s (0m 32s)  52% completed
+     Speed:     ev/sec=374144   simsec/sec=0.0362403   ev/simsec=1.0324e+07
+     Messages:  created: 5659254   present: 5640   in FES: 682
+** Event #13254912   T=1.903632178731   Elapsed: 34.005s (0m 34s)  54% completed
+     Speed:     ev/sec=356096   simsec/sec=0.0374787   ev/simsec=9.50129e+06
+     Messages:  created: 5982000   present: 5607   in FES: 701
+** Event #13976320   T=1.971728256944   Elapsed: 36.005s (0m 36s)  56% completed
+     Speed:     ev/sec=360704   simsec/sec=0.034048   ev/simsec=1.0594e+07
+     Messages:  created: 6307405   present: 5066   in FES: 666
+** Event #14692608   T=2.038588619455   Elapsed: 38.005s (0m 38s)  58% completed
+     Speed:     ev/sec=358144   simsec/sec=0.0334302   ev/simsec=1.07132e+07
+     Messages:  created: 6630251   present: 6053   in FES: 718
+** Event #15418112   T=2.103026937725   Elapsed: 40.006s (0m 40s)  60% completed
+     Speed:     ev/sec=362752   simsec/sec=0.0322192   ev/simsec=1.12589e+07
+     Messages:  created: 6958394   present: 5992   in FES: 726
+** Event #16132608   T=2.178547736352   Elapsed: 42.006s (0m 42s)  62% completed
+     Speed:     ev/sec=357248   simsec/sec=0.0377604   ev/simsec=9.46092e+06
+     Messages:  created: 7281602   present: 5386   in FES: 700
+** Event #16826880   T=2.238495254305   Elapsed: 44.006s (0m 44s)  63% completed
+     Speed:     ev/sec=347136   simsec/sec=0.0299738   ev/simsec=1.15813e+07
+     Messages:  created: 7596217   present: 6384   in FES: 846
+** Event #17518848   T=2.298279571982   Elapsed: 46.007s (0m 46s)  65% completed
+     Speed:     ev/sec=345984   simsec/sec=0.0298922   ev/simsec=1.15744e+07
+     Messages:  created: 7908203   present: 5772   in FES: 730
+** Event #18229760   T=2.362648290603   Elapsed: 48.007s (0m 48s)  67% completed
+     Speed:     ev/sec=355456   simsec/sec=0.0321844   ev/simsec=1.10444e+07
+     Messages:  created: 8229692   present: 5671   in FES: 696
+** Event #18868736   T=2.421951887908   Elapsed: 50.007s (0m 50s)  69% completed
+     Speed:     ev/sec=319488   simsec/sec=0.0296518   ev/simsec=1.07747e+07
+     Messages:  created: 8519710   present: 6056   in FES: 848
+** Event #19572480   T=2.480556687293   Elapsed: 52.008s (0m 52s)  70% completed
+     Speed:     ev/sec=351872   simsec/sec=0.0293024   ev/simsec=1.20083e+07
+     Messages:  created: 8836241   present: 5542   in FES: 659
+** Event #20259072   T=2.557032765461   Elapsed: 54.008s (0m 54s)  73% completed
+     Speed:     ev/sec=343296   simsec/sec=0.038238   ev/simsec=8.97787e+06
+     Messages:  created: 9147506   present: 5050   in FES: 571
+** Event #20952320   T=2.624591404504   Elapsed: 56.008s (0m 56s)  74% completed
+     Speed:     ev/sec=346624   simsec/sec=0.0337793   ev/simsec=1.02614e+07
+     Messages:  created: 9462290   present: 5748   in FES: 727
+** Event #21637888   T=2.69250732253   Elapsed: 58.008s (0m 58s)  76% completed
+     Speed:     ev/sec=342784   simsec/sec=0.033958   ev/simsec=1.00944e+07
+     Messages:  created: 9774109   present: 5879   in FES: 655
+** Event #22354688   T=2.765692921434   Elapsed: 60.009s (1m 00s)  79% completed
+     Speed:     ev/sec=358400   simsec/sec=0.0365928   ev/simsec=9.79428e+06
+     Messages:  created: 10099712   present: 5950   in FES: 697
+** Event #23082240   T=2.83534035579   Elapsed: 62.009s (1m 02s)  81% completed
+     Speed:     ev/sec=363776   simsec/sec=0.0348237   ev/simsec=1.04462e+07
+     Messages:  created: 10432396   present: 5593   in FES: 732
+** Event #23799040   T=2.900915554407   Elapsed: 64.009s (1m 04s)  82% completed
+     Speed:     ev/sec=358400   simsec/sec=0.0327876   ev/simsec=1.0931e+07
+     Messages:  created: 10759367   present: 5549   in FES: 701
+** Event #24523008   T=2.970418912219   Elapsed: 66.010s (1m 06s)  84% completed
+     Speed:     ev/sec=361984   simsec/sec=0.0347517   ev/simsec=1.04163e+07
+     Messages:  created: 11088250   present: 5645   in FES: 674
+** Event #25287168   T=3.054723629943   Elapsed: 68.010s (1m 08s)  87% completed
+     Speed:     ev/sec=382080   simsec/sec=0.0421524   ev/simsec=9.06426e+06
+     Messages:  created: 11434745   present: 5696   in FES: 812
+** Event #26050048   T=3.117198348512   Elapsed: 70.010s (1m 10s)  89% completed
+     Speed:     ev/sec=381440   simsec/sec=0.0312374   ev/simsec=1.2211e+07
+     Messages:  created: 11781665   present: 6584   in FES: 797
+** Event #26815488   T=3.180208666353   Elapsed: 72.011s (1m 12s)  90% completed
+     Speed:     ev/sec=382720   simsec/sec=0.0315052   ev/simsec=1.21479e+07
+     Messages:  created: 12127988   present: 6043   in FES: 727
+** Event #27597824   T=3.252121784205   Elapsed: 74.011s (1m 14s)  92% completed
+     Speed:     ev/sec=391168   simsec/sec=0.0359566   ev/simsec=1.08789e+07
+     Messages:  created: 12481977   present: 6090   in FES: 754
+** Event #28357632   T=3.320829702555   Elapsed: 76.011s (1m 16s)  94% completed
+     Speed:     ev/sec=379904   simsec/sec=0.034354   ev/simsec=1.10585e+07
+     Messages:  created: 12826101   present: 5984   in FES: 769
+** Event #29117184   T=3.390330979884   Elapsed: 78.012s (1m 18s)  96% completed
+     Speed:     ev/sec=379776   simsec/sec=0.0347506   ev/simsec=1.09286e+07
+     Messages:  created: 13170136   present: 6335   in FES: 750
+** Event #29854208   T=3.450607378088   Elapsed: 80.012s (1m 20s)  98% completed
+     Speed:     ev/sec=368512   simsec/sec=0.0301382   ev/simsec=1.22274e+07
+     Messages:  created: 13503581   present: 6794   in FES: 801
+** Event #30507829   T=3.500000016837   Elapsed: 81.685s (1m 21s)  100% completed
+     Speed:     ev/sec=390687   simsec/sec=0.0295234   ev/simsec=1.32331e+07
+     Messages:  created: 13798457   present: 6457   in FES: 848
+
+<!> Simulation time limit reached -- simulation stopped at event #30507829, t=3.500000016837.
+
+
+Calling finish() at end of Run #0...
+FatTree.cluster[0].host[0].tcpApp[13]: received 75340 bytes in 151 packets
+FatTree.cluster[0].host[0].tcpApp[15]: received 438477 bytes in 784 packets
+FatTree.cluster[0].host[0].tcpApp[16]: received 241035 bytes in 483 packets
+FatTree.cluster[0].host[0].tcpApp[17]: received 46561 bytes in 94 packets
+FatTree.cluster[0].host[0].tcpApp[18]: received 62499 bytes in 125 packets
+FatTree.cluster[0].host[0].tcpApp[19]: received 58908 bytes in 118 packets
+FatTree.cluster[0].host[0].tcpApp[20]: received 2701599 bytes in 5326 packets
+FatTree.cluster[0].host[0].tcp: finishing with 29 connections open.
+FatTree.cluster[0].host[1].tcpApp[13]: received 2000 bytes in 4 packets
+FatTree.cluster[0].host[1].tcpApp[15]: received 199750 bytes in 400 packets
+FatTree.cluster[0].host[1].tcpApp[16]: received 1340612 bytes in 2342 packets
+FatTree.cluster[0].host[1].tcpApp[18]: received 8832 bytes in 18 packets
+FatTree.cluster[0].host[1].tcpApp[19]: received 235517 bytes in 448 packets
+FatTree.cluster[0].host[1].tcpApp[21]: received 24141 bytes in 49 packets
+FatTree.cluster[0].host[1].tcp: finishing with 29 connections open.
+FatTree.cluster[0].host[2].tcpApp[16]: received 3501717 bytes in 6533 packets
+FatTree.cluster[0].host[2].tcpApp[20]: received 6975 bytes in 14 packets
+FatTree.cluster[0].host[2].tcpApp[21]: received 1294995 bytes in 2437 packets
+FatTree.cluster[0].host[2].tcpApp[23]: received 60706 bytes in 122 packets
+FatTree.cluster[0].host[2].tcp: finishing with 29 connections open.
+FatTree.cluster[0].host[3].tcpApp[16]: received 12261 bytes in 25 packets
+FatTree.cluster[0].host[3].tcpApp[18]: received 1000 bytes in 2 packets
+FatTree.cluster[0].host[3].tcpApp[19]: received 448154 bytes in 759 packets
+FatTree.cluster[0].host[3].tcpApp[23]: received 59291 bytes in 119 packets
+FatTree.cluster[0].host[3].tcp: finishing with 26 connections open.
+FatTree.cluster[0].host[4].tcpApp[12]: received 745875 bytes in 1336 packets
+FatTree.cluster[0].host[4].tcpApp[13]: received 1557378 bytes in 2736 packets
+FatTree.cluster[0].host[4].tcpApp[14]: received 1078535 bytes in 1905 packets
+FatTree.cluster[0].host[4].tcpApp[16]: received 738141 bytes in 1318 packets
+FatTree.cluster[0].host[4].tcpApp[17]: received 237775 bytes in 348 packets
+FatTree.cluster[0].host[4].tcpApp[20]: received 29743 bytes in 59 packets
+FatTree.cluster[0].host[4].tcpApp[21]: received 161535 bytes in 259 packets
+FatTree.cluster[0].host[4].tcpApp[22]: received 266246 bytes in 408 packets
+FatTree.cluster[0].host[4].tcpApp[23]: received 101681 bytes in 187 packets
+FatTree.cluster[0].host[4].tcp: finishing with 25 connections open.
+FatTree.cluster[0].host[5].tcpApp[12]: received 145219 bytes in 266 packets
+FatTree.cluster[0].host[5].tcpApp[13]: received 11793 bytes in 24 packets
+FatTree.cluster[0].host[5].tcpApp[14]: received 390093 bytes in 684 packets
+FatTree.cluster[0].host[5].tcpApp[16]: received 924811 bytes in 1556 packets
+FatTree.cluster[0].host[5].tcpApp[17]: received 45550 bytes in 82 packets
+FatTree.cluster[0].host[5].tcpApp[19]: received 471981 bytes in 729 packets
+FatTree.cluster[0].host[5].tcpApp[22]: received 1151893 bytes in 2058 packets
+FatTree.cluster[0].host[5].tcpApp[23]: received 0 bytes in 0 packets
+FatTree.cluster[0].host[5].tcp: finishing with 28 connections open.
+FatTree.cluster[0].host[6].tcpApp[12]: received 604599 bytes in 1025 packets
+FatTree.cluster[0].host[6].tcpApp[13]: received 7713 bytes in 16 packets
+FatTree.cluster[0].host[6].tcpApp[14]: received 458898 bytes in 836 packets
+FatTree.cluster[0].host[6].tcpApp[22]: received 1204659 bytes in 2270 packets
+FatTree.cluster[0].host[6].tcp: finishing with 27 connections open.
+FatTree.cluster[0].host[7].tcpApp[12]: received 2410417 bytes in 4405 packets
+FatTree.cluster[0].host[7].tcpApp[13]: received 1694027 bytes in 3055 packets
+FatTree.cluster[0].host[7].tcpApp[14]: received 45841 bytes in 92 packets
+FatTree.cluster[0].host[7].tcpApp[15]: received 500 bytes in 1 packets
+FatTree.cluster[0].host[7].tcpApp[18]: received 141035 bytes in 283 packets
+FatTree.cluster[0].host[7].tcpApp[20]: received 371827 bytes in 745 packets
+FatTree.cluster[0].host[7].tcpApp[21]: received 666984 bytes in 1153 packets
+FatTree.cluster[0].host[7].tcpApp[22]: received 147029 bytes in 205 packets
+FatTree.cluster[0].host[7].tcp: finishing with 30 connections open.
+FatTree.cluster[1].host[0].tcpApp[12]: received 415500 bytes in 831 packets
+FatTree.cluster[1].host[0].tcpApp[13]: received 1252 bytes in 3 packets
+FatTree.cluster[1].host[0].tcpApp[15]: received 840324 bytes in 1596 packets
+FatTree.cluster[1].host[0].tcpApp[17]: received 29214 bytes in 26 packets
+FatTree.cluster[1].host[0].tcpApp[20]: received 57979 bytes in 117 packets
+FatTree.cluster[1].host[0].tcpApp[21]: received 854562 bytes in 1503 packets
+FatTree.cluster[1].host[0].tcpApp[22]: received 5561 bytes in 12 packets
+FatTree.cluster[1].host[0].tcp: finishing with 29 connections open.
+FatTree.cluster[1].host[1].tcpApp[13]: received 53428 bytes in 107 packets
+FatTree.cluster[1].host[1].tcpApp[14]: received 28399 bytes in 57 packets
+FatTree.cluster[1].host[1].tcpApp[16]: received 649650 bytes in 1160 packets
+FatTree.cluster[1].host[1].tcpApp[20]: received 8595 bytes in 18 packets
+FatTree.cluster[1].host[1].tcp: finishing with 26 connections open.
+FatTree.cluster[1].host[2].tcpApp[12]: received 116000 bytes in 232 packets
+FatTree.cluster[1].host[2].tcpApp[13]: received 49686 bytes in 64 packets
+FatTree.cluster[1].host[2].tcpApp[14]: received 70839 bytes in 140 packets
+FatTree.cluster[1].host[2].tcpApp[15]: received 401373 bytes in 625 packets
+FatTree.cluster[1].host[2].tcpApp[17]: received 838379 bytes in 1527 packets
+FatTree.cluster[1].host[2].tcpApp[18]: received 773631 bytes in 1348 packets
+FatTree.cluster[1].host[2].tcpApp[19]: received 3718605 bytes in 6876 packets
+FatTree.cluster[1].host[2].tcp: finishing with 27 connections open.
+FatTree.cluster[1].host[3].tcpApp[14]: received 1241676 bytes in 2390 packets
+FatTree.cluster[1].host[3].tcpApp[15]: received 23780 bytes in 48 packets
+FatTree.cluster[1].host[3].tcpApp[16]: received 80811 bytes in 119 packets
+FatTree.cluster[1].host[3].tcpApp[17]: received 43326 bytes in 88 packets
+FatTree.cluster[1].host[3].tcpApp[18]: received 103000 bytes in 206 packets
+FatTree.cluster[1].host[3].tcpApp[20]: received 4827728 bytes in 9086 packets
+FatTree.cluster[1].host[3].tcpApp[21]: received 666496 bytes in 1199 packets
+FatTree.cluster[1].host[3].tcp: finishing with 26 connections open.
+FatTree.cluster[1].host[4].tcpApp[13]: received 99509 bytes in 200 packets
+FatTree.cluster[1].host[4].tcpApp[14]: received 0 bytes in 0 packets
+FatTree.cluster[1].host[4].tcpApp[19]: received 176703 bytes in 325 packets
+FatTree.cluster[1].host[4].tcpApp[20]: received 148511 bytes in 241 packets
+FatTree.cluster[1].host[4].tcp: finishing with 26 connections open.
+FatTree.cluster[1].host[5].tcpApp[14]: received 80054 bytes in 148 packets
+FatTree.cluster[1].host[5].tcpApp[15]: received 975977 bytes in 1781 packets
+FatTree.cluster[1].host[5].tcpApp[16]: received 44762 bytes in 90 packets
+FatTree.cluster[1].host[5].tcpApp[17]: received 178535 bytes in 233 packets
+FatTree.cluster[1].host[5].tcpApp[19]: received 553399 bytes in 947 packets
+FatTree.cluster[1].host[5].tcpApp[22]: received 1039639 bytes in 1934 packets
+FatTree.cluster[1].host[5].tcp: finishing with 28 connections open.
+FatTree.cluster[1].host[6].tcpApp[12]: received 21689 bytes in 44 packets
+FatTree.cluster[1].host[6].tcpApp[16]: received 30319 bytes in 36 packets
+FatTree.cluster[1].host[6].tcpApp[17]: received 184544 bytes in 174 packets
+FatTree.cluster[1].host[6].tcpApp[19]: received 1828711 bytes in 3176 packets
+FatTree.cluster[1].host[6].tcpApp[21]: received 17969 bytes in 36 packets
+FatTree.cluster[1].host[6].tcpApp[22]: received 4071 bytes in 9 packets
+FatTree.cluster[1].host[6].tcpApp[23]: received 9876 bytes in 20 packets
+FatTree.cluster[1].host[6].tcp: finishing with 26 connections open.
+FatTree.cluster[1].host[7].tcpApp[13]: received 78839 bytes in 158 packets
+FatTree.cluster[1].host[7].tcpApp[14]: received 524498 bytes in 1020 packets
+FatTree.cluster[1].host[7].tcpApp[18]: received 1995757 bytes in 3634 packets
+FatTree.cluster[1].host[7].tcpApp[19]: received 1763620 bytes in 3435 packets
+FatTree.cluster[1].host[7].tcpApp[20]: received 26455 bytes in 53 packets
+FatTree.cluster[1].host[7].tcpApp[23]: received 4015 bytes in 9 packets
+FatTree.cluster[1].host[7].tcp: finishing with 28 connections open.
+undisposed object: (cArray) FatTree.cluster[0].host[0].eth[0].mac. -- check module destructor
+
+End.
+Simulation end time: 
+2023-07-11 18:18:58.155115
+[34mComplete! Results are in the following directory:[0m
+results/sw2_sv4_l0.70_L100e6_s0_qDropTailQueue_vTCPNewReno_S3.5_tcp

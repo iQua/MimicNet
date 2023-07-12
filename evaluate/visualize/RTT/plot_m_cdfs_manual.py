@@ -13,9 +13,9 @@ title_list = sys.argv[2]
 color_list = sys.argv[3]
 output_name = sys.argv[4]
 
-file_list = file_list.split("|")
-title_list = title_list.split("|")
-color_list = color_list.split("|")
+file_list = file_list.split("-")
+title_list = title_list.split("-")
+color_list = color_list.split("-")
 
 # prints the last column of the FCT datafile to its own file
 for f in file_list:
