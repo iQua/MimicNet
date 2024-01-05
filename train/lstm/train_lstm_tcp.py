@@ -294,6 +294,7 @@ if __name__ == '__main__':
     torch.cuda.manual_seed_all(22)
     torch.manual_seed(22)
 
+    print("Before pickle load.")
     pdata = pickle.load(open(data_dict, 'rb'))
     X, y_d, y_l = pdata['X'], pdata['y_d'], pdata['y_l']
 

@@ -180,7 +180,7 @@ if flock 200; then
             -L${INET_HOME}/src/out/gcc-${MODE} -linet \
             -L../homatransport/out/gcc-${MODE} -lhomatransport \
             -L../src/out/gcc-${MODE} -lapprox \
-            -L/lib/x86_64-linux-gnu/ -lpython3.8
+            -L/lib/x86_64-linux-gnu/ -lpython3.6m
         make MODE=${MODE}
     fi
 fi

@@ -37,7 +37,8 @@ def generate_traffic_matrix(rng, load, linkSpeed, numOfServersPerRack,
     bisection_bandwidth = linkSpeed * numOfSpines * numOfSubtrees;
 
     lambda_rate = bisection_bandwidth * load / mean_flow_size
-    mean_interarrival_time = 1.0 / lambda_rate
+    #mean_interarrival_time = 1.0 / lambda_rate
+    mean_interarrival_time = (end_time - start_time) / load
 
     print("mean_interarrival_time =", mean_interarrival_time)
     print("estimated num of flows =", (end_time - start_time) / mean_interarrival_time)
