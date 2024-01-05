@@ -1,0 +1,117 @@
+FatTree.numClusters = 16
+FatTree.numCores = 4
+FatTree.degree = 2
+FatTree.serversPerRack = 4
+**.networkLayer.configurator.networkConfiguratorModule = "FatTree.configurator[0]"
+**.configurator[*].config=xmldoc("out/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10.route")
+**.cluster[0].tor[0].SEED = 25247
+**.cluster[0].tor[1].SEED = 27562
+**.cluster[1].tor[0].SEED = 2653
+**.cluster[1].tor[1].SEED = 16968
+**.cluster[2].tor[0].SEED = 31845
+**.cluster[2].tor[1].SEED = 26537
+**.cluster[3].tor[0].SEED = 19877
+**.cluster[3].tor[1].SEED = 31234
+**.cluster[4].tor[0].SEED = 23465
+**.cluster[4].tor[1].SEED = 14315
+**.cluster[5].tor[0].SEED = 9127
+**.cluster[5].tor[1].SEED = 18470
+**.cluster[6].tor[0].SEED = 9158
+**.cluster[6].tor[1].SEED = 6214
+**.cluster[7].tor[0].SEED = 16417
+**.cluster[7].tor[1].SEED = 9631
+**.cluster[8].tor[0].SEED = 20325
+**.cluster[8].tor[1].SEED = 6472
+**.cluster[9].tor[0].SEED = 4832
+**.cluster[9].tor[1].SEED = 21639
+**.cluster[10].tor[0].SEED = 30942
+**.cluster[10].tor[1].SEED = 6599
+**.cluster[11].tor[0].SEED = 23186
+**.cluster[11].tor[1].SEED = 28453
+**.cluster[12].tor[0].SEED = 20722
+**.cluster[12].tor[1].SEED = 13400
+**.cluster[13].tor[0].SEED = 31261
+**.cluster[13].tor[1].SEED = 29012
+**.cluster[14].tor[0].SEED = 17071
+**.cluster[14].tor[1].SEED = 4081
+**.cluster[15].tor[0].SEED = 920
+**.cluster[15].tor[1].SEED = 6112
+**.cluster[0].agg[0].SEED = 26137
+**.cluster[0].agg[1].SEED = 74
+**.cluster[1].agg[0].SEED = 32347
+**.cluster[1].agg[1].SEED = 21832
+**.cluster[2].agg[0].SEED = 15984
+**.cluster[2].agg[1].SEED = 21312
+**.cluster[3].agg[0].SEED = 4127
+**.cluster[3].agg[1].SEED = 12521
+**.cluster[4].agg[0].SEED = 14529
+**.cluster[4].agg[1].SEED = 15637
+**.cluster[5].agg[0].SEED = 9338
+**.cluster[5].agg[1].SEED = 29358
+**.cluster[6].agg[0].SEED = 5977
+**.cluster[6].agg[1].SEED = 5272
+**.cluster[7].agg[0].SEED = 20975
+**.cluster[7].agg[1].SEED = 32065
+**.cluster[8].agg[0].SEED = 7147
+**.cluster[8].agg[1].SEED = 19755
+**.cluster[9].agg[0].SEED = 19076
+**.cluster[9].agg[1].SEED = 8179
+**.cluster[10].agg[0].SEED = 21807
+**.cluster[10].agg[1].SEED = 13317
+**.cluster[11].agg[0].SEED = 18851
+**.cluster[11].agg[1].SEED = 29162
+**.cluster[12].agg[0].SEED = 6005
+**.cluster[12].agg[1].SEED = 25224
+**.cluster[13].agg[0].SEED = 20777
+**.cluster[13].agg[1].SEED = 15866
+**.cluster[14].agg[0].SEED = 19027
+**.cluster[14].agg[1].SEED = 12050
+**.cluster[15].agg[0].SEED = 12411
+**.cluster[15].agg[1].SEED = 12237
+
+
+[Config TrainPCAPs]
+
+**.cluster[1].agg[**].numFeatureRecorders = 2
+
+**.cluster[1].agg[0].featureRecorder[0].moduleNamePatterns = "eth[2]"
+**.cluster[1].agg[0].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/edges16/aggregation_0_inf0.pdmp"
+**.cluster[1].agg[0].featureRecorder[1].moduleNamePatterns = "eth[3]"
+**.cluster[1].agg[0].featureRecorder[1].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/edges16/aggregation_0_inf1.pdmp"
+**.cluster[1].agg[1].featureRecorder[0].moduleNamePatterns = "eth[2]"
+**.cluster[1].agg[1].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/edges16/aggregation_1_inf0.pdmp"
+**.cluster[1].agg[1].featureRecorder[1].moduleNamePatterns = "eth[3]"
+**.cluster[1].agg[1].featureRecorder[1].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/edges16/aggregation_1_inf1.pdmp"
+
+**.cluster[1].tor[**].numFeatureRecorders = 4
+
+**.cluster[1].tor[0].featureRecorder[0].moduleNamePatterns = "eth[0]"
+**.cluster[1].tor[0].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_2_0.pdmp"
+**.cluster[1].tor[0].featureRecorder[1].moduleNamePatterns = "eth[1]"
+**.cluster[1].tor[0].featureRecorder[1].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_2_1.pdmp"
+**.cluster[1].tor[0].featureRecorder[2].moduleNamePatterns = "eth[2]"
+**.cluster[1].tor[0].featureRecorder[2].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_2_2.pdmp"
+**.cluster[1].tor[0].featureRecorder[3].moduleNamePatterns = "eth[3]"
+**.cluster[1].tor[0].featureRecorder[3].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_2_3.pdmp"
+**.cluster[1].tor[1].featureRecorder[0].moduleNamePatterns = "eth[0]"
+**.cluster[1].tor[1].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_3_0.pdmp"
+**.cluster[1].tor[1].featureRecorder[1].moduleNamePatterns = "eth[1]"
+**.cluster[1].tor[1].featureRecorder[1].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_3_1.pdmp"
+**.cluster[1].tor[1].featureRecorder[2].moduleNamePatterns = "eth[2]"
+**.cluster[1].tor[1].featureRecorder[2].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_3_2.pdmp"
+**.cluster[1].tor[1].featureRecorder[3].moduleNamePatterns = "eth[3]"
+**.cluster[1].tor[1].featureRecorder[3].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/hosts16/host_3_3.pdmp"
+
+
+[Config EvalPCAPs]
+
+**.cluster[0].host[**].numFeatureRecorders = 1
+
+**.cluster[0].host[0].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_0_0.pdmp"
+**.cluster[0].host[1].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_0_1.pdmp"
+**.cluster[0].host[2].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_0_2.pdmp"
+**.cluster[0].host[3].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_0_3.pdmp"
+**.cluster[0].host[4].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_1_0.pdmp"
+**.cluster[0].host[5].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_1_1.pdmp"
+**.cluster[0].host[6].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_1_2.pdmp"
+**.cluster[0].host[7].featureRecorder[0].pdmpFile = "results/sw2_sv4_l1024_L100e6_s0_qDropTailQueue_vTCPNewReno_S10_tcp/eval16/eval_1_3.pdmp"
