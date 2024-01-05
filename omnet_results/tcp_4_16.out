@@ -1,0 +1,125 @@
+Simulation begin time: 
+2024-01-04 18:31:35.118319
+[34mConfiguration: RecordEval[0m
+mean_interarrival_time = 1.25
+estimated num of flows = 16.0
+out/sw2_sv4_l16_L100e6_s0_qDropTailQueue_vTCPNewReno_S20.traffic
+number of flows = 17
+ecmp
+Creating Makefile in /root/mimic/MimicNet/simulate/simulate_tcp...
+Makefile created, running "make depend" to add dependencies...
+Creating dependencies...
+Creating executable: out/gcc-release//simulate_tcp
+Simulation runtime begin time: 
+2024-01-04 18:31:35.899105
+[34mRunning simulate_tcp[0m
+OMNeT++ Discrete Event Simulation  (C) 1992-2013 Andras Varga, OpenSim Ltd.
+Version: 4.5, build: 140714-c6b1772, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from /root/mimic/parallel-inet/src/: 278
+Loading NED files from ../src/: 10
+Loading NED files from ../common/clusters/: 7
+Loading NED files from out/: 1
+Loading NED files from .: 2
+
+Preparing for running configuration RecordEval, run #0...
+Scenario: $repetition=0
+Assigned runID=RecordEval-0-20240104-18:31:36-26727
+Setting up network `FatTree'...
+Initializing...
+
+Running simulation...
+** Event #1   T=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 2364   present: 2364   in FES: 1928
+** Event #979456   T=3.033830315958   Elapsed: 2.000s (0m 02s)  15% completed
+     Speed:     ev/sec=489728   simsec/sec=1.51692   ev/simsec=322845
+     Messages:  created: 461548   present: 15476   in FES: 175
+** Event #1909248   T=8.562495610942   Elapsed: 4.000s (0m 04s)  42% completed
+     Speed:     ev/sec=464896   simsec/sec=2.76433   ev/simsec=168177
+     Messages:  created: 882670   present: 15486   in FES: 274
+** Event #2909184   T=10.781584362656   Elapsed: 6.001s (0m 06s)  53% completed
+     Speed:     ev/sec=499968   simsec/sec=1.10954   ev/simsec=450607
+     Messages:  created: 1329382   present: 15503   in FES: 264
+** Event #3944448   T=11.024395560713   Elapsed: 8.001s (0m 08s)  55% completed
+     Speed:     ev/sec=517632   simsec/sec=0.121406   ev/simsec=4.26366e+06
+     Messages:  created: 1791104   present: 15102   in FES: 129
+** Event #4950784   T=11.497533960151   Elapsed: 10.001s (0m 10s)  57% completed
+     Speed:     ev/sec=503168   simsec/sec=0.236569   ev/simsec=2.12694e+06
+     Messages:  created: 2238701   present: 15103   in FES: 149
+** Event #5995008   T=12.479431000061   Elapsed: 12.001s (0m 12s)  62% completed
+     Speed:     ev/sec=522112   simsec/sec=0.490949   ev/simsec=1.06348e+06
+     Messages:  created: 2705080   present: 15072   in FES: 139
+** Event #7026688   T=12.941780499835   Elapsed: 14.002s (0m 14s)  64% completed
+     Speed:     ev/sec=515840   simsec/sec=0.231175   ev/simsec=2.23139e+06
+     Messages:  created: 3166358   present: 15081   in FES: 141
+** Event #7852005   T=20.621914158   Elapsed: 15.594s (0m 15s)  103% completed
+     Speed:     ev/sec=518415   simsec/sec=4.8242   ev/simsec=107461
+     Messages:  created: 3534363   present: 14750   in FES: 17
+
+<!> Simulation time limit reached -- simulation stopped at event #7852005, t=20.621914158.
+
+
+Calling finish() at end of Run #0...
+FatTree.cluster[0].host[0].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[1].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[2].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[3].tcpApp[48]: received 12261 bytes in 25 packets
+FatTree.cluster[0].host[3].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[4].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[5].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[6].tcp: finishing with 56 connections open.
+FatTree.cluster[0].host[7].tcpApp[40]: received 4735 bytes in 10 packets
+FatTree.cluster[0].host[7].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[0].tcpApp[53]: received 854562 bytes in 1710 packets
+FatTree.cluster[1].host[0].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[1].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[2].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[3].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[4].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[5].tcpApp[55]: received 1151893 bytes in 2304 packets
+FatTree.cluster[1].host[5].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[6].tcp: finishing with 56 connections open.
+FatTree.cluster[1].host[7].tcpApp[51]: received 4015 bytes in 9 packets
+FatTree.cluster[1].host[7].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[0].tcpApp[51]: received 58908 bytes in 118 packets
+FatTree.cluster[2].host[0].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[1].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[2].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[3].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[4].tcpApp[49]: received 43745 bytes in 88 packets
+FatTree.cluster[2].host[4].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[5].tcpApp[29]: received 11793 bytes in 24 packets
+FatTree.cluster[2].host[5].tcp: finishing with 56 connections open.
+FatTree.cluster[2].host[6].tcpApp[42]: received 0 bytes in 0 packets
+FatTree.cluster[2].host[6].tcp: finishing with 55 connections open.
+FatTree.cluster[2].host[7].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[0].tcpApp[28]: received 58673 bytes in 118 packets
+FatTree.cluster[3].host[0].tcpApp[29]: received 341083 bytes in 554 packets
+FatTree.cluster[3].host[0].tcpApp[53]: received 64187 bytes in 129 packets
+FatTree.cluster[3].host[0].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[1].tcpApp[40]: received 8595 bytes in 18 packets
+FatTree.cluster[3].host[1].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[2].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[3].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[4].tcpApp[39]: received 8190636 bytes in 16255 packets
+FatTree.cluster[3].host[4].tcpApp[53]: received 1917250 bytes in 3835 packets
+FatTree.cluster[3].host[4].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[5].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[6].tcpApp[31]: received 1781567 bytes in 3564 packets
+FatTree.cluster[3].host[6].tcpApp[44]: received 1742336 bytes in 3485 packets
+FatTree.cluster[3].host[6].tcp: finishing with 56 connections open.
+FatTree.cluster[3].host[7].tcp: finishing with 56 connections open.
+undisposed object: (cArray) FatTree.cluster[0].host[0].eth[0].mac. -- check module destructor
+
+End.
+Simulation end time: 
+2024-01-04 18:31:52.355798
+[34mComplete! Results are in the following directory:[0m
+results/sw2_sv4_l16_L100e6_s0_qDropTailQueue_vTCPNewReno_S20_tcp
++ RESULTS_DIR=results/sw2_sv4_l16_L100e6_s0_qDropTailQueue_vTCPNewReno_S20_tcp
++ echo 'Parsing results...'
+Parsing results...
++ cd /root/mimic/MimicNet
++ prepare/parse_pdmps.sh simulate/simulate_tcp/results/sw2_sv4_l16_L100e6_s0_qDropTailQueue_vTCPNewReno_S20_tcp 4
